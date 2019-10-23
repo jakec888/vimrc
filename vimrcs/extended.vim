@@ -31,7 +31,9 @@ set guioptions-=L
 set background=dark
 colorscheme solarized
 
-set relativenumber
+" Line number
+:set number relativenumber
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
