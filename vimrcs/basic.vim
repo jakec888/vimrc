@@ -111,6 +111,9 @@ set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
+" Line number
+:set number relativenumber
+
 " No annoying sound on errors
 set noerrorbells
 set novisualbell

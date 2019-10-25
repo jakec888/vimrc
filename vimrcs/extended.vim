@@ -32,7 +32,7 @@ set background=dark
 colorscheme peaksea
 
 " Line number
-:set number relativenumber
+" :set number relativenumber
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
