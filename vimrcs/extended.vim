@@ -1,7 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important: 
-"       This requries that you install https://github.com/jakec888/vimrc !
-"
+" Important: This requries that you install https://github.com/jakec888/vimrc !
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
@@ -31,8 +29,6 @@ set guioptions-=L
 set background=dark
 colorscheme peaksea
 
-" Line number
-" :set number relativenumber
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
