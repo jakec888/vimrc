@@ -1,7 +1,5 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Important: 
-"       This requries that you install https://github.com/jakec888/vimrc !
-"
+" Important: This requries that you install https://github.com/jakec888/vimrc !
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 
