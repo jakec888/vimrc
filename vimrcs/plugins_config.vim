@@ -4,6 +4,15 @@
 
 
 """"""""""""""""""""""""""""""
+" => YouCompleteMe plugin
+""""""""""""""""""""""""""""""
+if !exists("g:ycm_semantic_triggers")
+    let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
+
+
+""""""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
 let s:vim_runtime = expand('<sfile>:p:h')."/.."
