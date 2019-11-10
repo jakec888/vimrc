@@ -36,6 +36,11 @@ IMPROVEMENTS:
 * Add a new option, `g:go_referrers_mode` to allow the user to choose whether
   to use gopls or guru for finding references.
   [[GH-2566]](https://github.com/fatih/vim-go/pull/2566)
+* Add options to control how gopls responds to completion requests.
+  [[GH-2567]](https://github.com/fatih/vim-go/pull/2567)
+  [[GH-2568]](https://github.com/fatih/vim-go/pull/2568)
+* Add syntax highlighting for binary literals.
+  [[GH-2557]](https://github.com/fatih/vim-go/pull/2557)
 
 BUG FIXES:
 * Fix removal of missing directories from gopls workspaces.
