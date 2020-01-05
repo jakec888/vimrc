@@ -176,3 +176,10 @@ let g:ale_lint_on_enter = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:gitgutter_enabled=0
 nnoremap <silent> <leader>d :GitGutterToggle<cr>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim Markdown
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Disable markdown folding
+let g:vim_markdown_folding_disabled = 1
