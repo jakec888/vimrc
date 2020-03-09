@@ -37,6 +37,17 @@ autocmd! bufwritepost ~/.vim_runtime/my_configs.vim source ~/.vim_runtime/my_con
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim Unimpaired
+"    moving blocks of code in visual mode
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Move single lines up and down
+map <C-k> [e
+map <C-j> ]e
+" Move multiple lines selected up and down
+map <C-k> [egv
+map <C-j> ]egv
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Turn persistent undo on 
 "    means that you can undo even when you close a buffer/VIM
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
